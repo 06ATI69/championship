@@ -1,0 +1,36 @@
+html {
+         background-color: #ffffe6;
+         background-image: url(assets/focipalya.jpg);
+       background-position: center center;
+}
+h1, h2 {
+        text-shadow: black 10px 5px 15px;
+        color: white;
+        text-align: center;
+}
+.displayed {
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: black 10px 5px 15px; 
+        border-radius: 10px;
+}
+table {
+        width: 60%;
+        margin: 25px auto;
+        border-collapse: collapse;
+        text-align: center;
+        background-color: white;
+}
+caption {
+      color : white;
+}
+table, th, td, caption {
+        border: 2px solid green;
+}
+tr:nth-child(even) {
+        background-color: rgba(10, 231, 10, 0.507);
+}
+td:hover {
+            background-color: yellow;
+}
